@@ -17,5 +17,5 @@ ADD run.sh /run.sh
 RUN chmod 755 /*.sh
 
 EXPOSE 80
-
+EXPOSE 7946
 CMD ["/run.sh"]
